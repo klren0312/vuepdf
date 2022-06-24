@@ -1,5 +1,5 @@
 {
-  "name": "@zzes/vue-pdf",
+  "name": "zvue-pdf",
   "version": "5.2.0",
   "description": "vue.js pdf viewer",
   "main": "src/vuePdfNoSss.vue",

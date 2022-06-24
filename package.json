@@ -1,6 +1,6 @@
 {
   "name": "zvue-pdf",
-  "version": "5.2.0",
+  "version": "5.2.4",
   "description": "vue.js pdf viewer",
   "main": "src/vuePdfNoSss.vue",
   "scripts": {},

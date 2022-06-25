@@ -1,13 +1,14 @@
 # vue-pdf
+基于`vue-pdf`改, 修复打印时乱码问题
 vue.js pdf viewer is a package for Vue that enables you to display and view PDF's easily via vue components.
 
 ## Install via NPM/Yarn
 ```bash
-npm install vue-pdf
+npm install zvue-pdf
 ```
 
 ```bash
-yarn add vue-pdf
+yarn add zvue-pdf
 ```
 
 ## Example - basic
@@ -17,7 +18,7 @@ yarn add vue-pdf
 </template>
 
 <script>
-import pdf from 'vue-pdf'
+import pdf from 'zvue-pdf'
 
 export default {
   components: {
@@ -26,11 +27,6 @@ export default {
 }
 ```
 
-## Demo
-
-[vue-pdf demo on jsfiddle](https://jsfiddle.net/fossfiddler/5k4ptmqg/145/)
-
-_TBD: fix the demo_
 
 ## Browser support
 Same browser support as [Vue.js 2](https://github.com/vuejs/vue/blob/dev/README.md)
@@ -116,7 +112,7 @@ Triggers when an internal link is clicked
 
 <script>
 
-import pdf from 'vue-pdf'
+import pdf from 'zvue-pdf'
 
 export default {
 	components: {
@@ -150,7 +146,7 @@ export default {
 
 <script>
 
-import pdf from 'vue-pdf'
+import pdf from 'zvue-pdf'
 
 var loadingTask = pdf.createLoadingTask('https://cdn.mozilla.net/pdfjs/tracemonkey.pdf');
 
@@ -213,7 +209,7 @@ export default {
 
 <script>
 
-import pdf from 'vue-pdf'
+import pdf from 'zvue-pdf'
 
 export default {
 	components: {
@@ -258,7 +254,7 @@ export default {
 	</div>
 </template>
 <script>
-import pdf from 'vue-pdf'
+import pdf from 'zvue-pdf'
 
 export default {
 	components: {
